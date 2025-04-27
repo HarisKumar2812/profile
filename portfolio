@@ -1921,71 +1921,149 @@ window.addEventListener('click', function(event) {
 </script>
 
     <!-- Achievements Section -->
-    <section id="achievements">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="slide-right">Achievements & Awards</h2>
+    <!-- Achievements Section -->
+<section id="achievements">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="slide-right">Achievements & Awards</h2>
+        </div>
+        <div class="achievements-list">
+            <!-- Hackathons -->
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>NMAUTNCPL-Naan Mudhalvan GUVI Hackathon (Oct 2023 - Mar 2024)</h4>
+                    <p>
+                        <strong>Top 70 Finalist:</strong> Received award from Naan Mudhalvan<br>
+                        <strong>Ideathon:</strong> Voiceless connections using Alexa solution
+                    </p>
+                </div>
             </div>
-            <div class="achievements-list">
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Naan Mudhalvan GUVI Hackathon</h4>
-                        <p>Top 70 finalist in the Oct 2023 - Mar 2024 hackathon. Received awards for participation in Learnathon, Ideathon (Voiceless connections using Alexa), and Hackathon.</p>
-                    </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-laptop-code"></i>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-medal"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Code O Clock-CIT Startup TN Hackathon</h4>
-                        <p>Participated in a 24-hour hackathon (Jun 2023), developed a web application for agricultural challenges, demonstrating problem-solving and teamwork skills.</p>
-                    </div>
+                <div class="achievement-content">
+                    <h4>Code O Clock-CIT Startup TN Hackathon (Jun 2023)</h4>
+                    <p>24-hour agriculture domain hackathon. Developed web application demonstrating problem-solving and teamwork under time constraints.</p>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Knowledge Institute of Technology Awards</h4>
-                        <p>2023 - Premier Paper Presentation Award<br>
-                        2024 - Best student in Co-curricular Activities Award<br>
-                        2025 - Achiever Award & Best student in Co-curricular Activities Award</p>
-                    </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-robot"></i>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>GeeksForGeeks Coding Challenge</h4>
-                        <p>Successfully completed a 160-day coding challenge and received a reward for outstanding performance.</p>
-                    </div>
+                <div class="achievement-content">
+                    <h4>istart Hackathon - 48hours (Mar 2024)</h4>
+                    <p>Hardware-Software Integration: Pregog (Alerting system for bricks). Organized by KIOT - Incubation & Startup Cell.</p>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>Excel Engineering College</h4>
-                        <p>Secured First Prize in the Video-Idea Integration Presentation for the Artificial Mother Womb concept (2022-2023).</p>
-                    </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-plane"></i>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">
-                        <i class="fas fa-microchip"></i>
-                    </div>
-                    <div class="achievement-content">
-                        <h4>M.Kumarasamy College of Engineering</h4>
-                        <p>Secured Second Prize in the Tech Mystery technical event (2022-2023).</p>
-                    </div>
+                <div class="achievement-content">
+                    <h4>MAWAZO 2025 - Kerala Startup Hackathon</h4>
+                    <p>Finalist from Tamilnadu for Tourism and Hospitality solution for Foreigners.</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>GUVI Campus Ambassador</h4>
+                    <p>Officially joined on June 12, 2024. Promoting technical learning and engagement within campus community.</p>
+                </div>
+            </div>
+
+            <!-- College Events -->
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>Knowledge Institute of Technology</h4>
+                    <p>
+                        2022: Kalam Scholarship with ₹10,500 cash reward<br>
+                        2023: Premier Paper Presentation Award<br>
+                        2024: Best student in Co-curricular Activities<br>
+                        2025: Achiever Award & Best student in Co-curricular Activities
+                    </p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>GeeksForGeeks Coding Challenge</h4>
+                    <p>Successfully completed 160-day coding challenge with outstanding performance reward</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>Excel Engineering College (2022-2023)</h4>
+                    <p>First Prize in Video-Idea Integration Presentation for Artificial Mother Womb concept</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-microchip"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>M.Kumarasamy College of Engineering (2022-2023)</h4>
+                    <p>Second Prize in Tech Mystery technical event</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-indian-rupee-sign"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>MSME Hackathon 2024-2025</h4>
+                    <p>Finalist - Applied for project funding from Tamil Nadu Government</p>
+                </div>
+            </div>
+
+            <!-- New Additions -->
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>K.Ramakrishnan College of Engineering (Apr 2025)</h4>
+                    <p>Participated in Techathon 2K25 - 24 hours hackathon on 3rd-4th April 2025</p>
+                </div>
+            </div>
+
+            <div class="achievement-item">
+                <div class="achievement-icon">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="achievement-content">
+                    <h4>Sri Ramakrishna Institute of Technology (Apr 2025)</h4>
+                    <p>
+                        <strong>11:11 Hackathon (Vihansa 2K25):</strong> Best Project Title Award with cash reward<br>
+                        <strong>Logical Rivera:</strong> Secured 2nd Prize
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Contact Section -->
     <section id="contact">
