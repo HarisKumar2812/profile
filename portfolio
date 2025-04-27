@@ -1477,117 +1477,166 @@ header {
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="slide-right">Projects</h2>
+    
+        <!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <div class="section-title">
+            <h2 class="slide-right">Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <!-- Original Project 1 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #3b82f6;">
+                    <i class="fas fa-radar"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Track Before Detection in Radar Systems</h3>
+                    <p class="project-description">Developed machine learning algorithms for improved radar signal processing and tracking at DRDO.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Machine Learning</span>
+                        <span class="project-tag">Radar</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
+                    </div>
+                </div>
             </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #3b82f6;">
-                        <i class="fas fa-radar"></i>
+
+            <!-- Original Project 2 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #10b981;">
+                    <i class="fas fa-trash-alt"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Eco-BIN - Efficient Waste Segregation System</h3>
+                    <p class="project-description">Patent approved automated waste segregation system using AI and sensors.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">AI</span>
+                        <span class="project-tag">IoT</span>
+                        <span class="project-tag">Sensors</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Track Before Detection in Radar Systems</h3>
-                        <p class="project-description">Developed machine learning algorithms for improved radar signal processing and tracking at DRDO.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Python</span>
-                            <span class="project-tag">Machine Learning</span>
-                            <span class="project-tag">Radar</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #10b981;">
-                        <i class="fas fa-trash-alt"></i>
+            </div>
+
+            <!-- Original Project 3 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #f59e0b;">
+                    <i class="fas fa-bus"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Automated Ticket Collection System for Buses</h3>
+                    <p class="project-description">Patent approved system for automating ticket collection in public transport.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">IoT</span>
+                        <span class="project-tag">Automation</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Eco-BIN - Efficient Waste Segregation System</h3>
-                        <p class="project-description">Patent approved automated waste segregation system using AI and sensors.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">IoT</span>
-                            <span class="project-tag">Sensors</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #f59e0b;">
-                        <i class="fas fa-bus"></i>
+            </div>
+
+            <!-- Original Project 4 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #6366f1;">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Voiceless Connections (using Alexa)</h3>
+                    <p class="project-description">Paper published on creating communication systems for speech-impaired using Alexa.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">NLP</span>
+                        <span class="project-tag">Alexa</span>
+                        <span class="project-tag">Accessibility</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Automated Ticket Collection System for Buses</h3>
-                        <p class="project-description">Patent approved system for automating ticket collection in public transport.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">IoT</span>
-                            <span class="project-tag">Automation</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #6366f1;">
-                        <i class="fas fa-robot"></i>
+            </div>
+
+            <!-- Original Project 5 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #ec4899;">
+                    <i class="fas fa-car"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Number Plating System</h3>
+                    <p class="project-description">Computer vision system for automatic number plate recognition.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Computer Vision</span>
+                        <span class="project-tag">OpenCV</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Voiceless Connections (using Alexa)</h3>
-                        <p class="project-description">Paper published on creating communication systems for speech-impaired using Alexa.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">NLP</span>
-                            <span class="project-tag">Alexa</span>
-                            <span class="project-tag">Accessibility</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #ec4899;">
-                        <i class="fas fa-car"></i>
+            </div>
+
+            <!-- Original Project 6 -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #14b8a6;">
+                    <i class="fas fa-calendar-check"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">AI-Driven Reminder & Assistant App</h3>
+                    <p class="project-description">Intelligent personal assistant application with reminder capabilities.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">AI</span>
+                        <span class="project-tag">Mobile App</span>
+                        <span class="project-tag">NLP</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Number Plating System</h3>
-                        <p class="project-description">Computer vision system for automatic number plate recognition.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Computer Vision</span>
-                            <span class="project-tag">OpenCV</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img" style="background-color: #14b8a6;">
-                        <i class="fas fa-calendar-check"></i>
+            </div>
+
+            <!-- NEW PROJECT 1: Pregog Alerting System -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #8b4513;">
+                    <i class="fas fa-brick"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Pregog - Brick Manufacturing Alert System</h3>
+                    <p class="project-description">IoT-based monitoring system for brick manufacturing units with real-time alerts for temperature, humidity, and quality control.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">IoT</span>
+                        <span class="project-tag">Sensor Network</span>
+                        <span class="project-tag">Real-time Alerts</span>
                     </div>
-                    <div class="project-content">
-                        <h3 class="project-title">AI-Driven Reminder & Assistant App</h3>
-                        <p class="project-description">Intelligent personal assistant application with reminder capabilities.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">AI</span>
-                            <span class="project-tag">Mobile App</span>
-                            <span class="project-tag">NLP</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
-                        </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEW PROJECT 2: Low-Code Platform -->
+            <div class="project-card">
+                <div class="project-img" style="background-color: #4682b4;">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Low-Code/No-Code AI Platform</h3>
+                    <p class="project-description">Drag-and-drop interface for building AI workflows without coding, enabling business users to create custom automation solutions.</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Low-Code</span>
+                        <span class="project-tag">Drag-and-Drop</span>
+                        <span class="project-tag">Workflow Automation</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#"><i class="fas fa-external-link-alt"></i> View Details</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Certifications Section -->
+    </div>
+</section>
     <!-- Certifications Section -->
 <section id="certifications">
     <div class="container">
